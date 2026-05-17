@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br>
-    <div id="järjend"></div>
-    <br>
-    <label for="sona">Sisestage sõna, mida soovite järjendist eemaldada: </label>
-    <input id="sõna">
-    <br>
-    <script src="avalik_rakendus.js"></script>
+    <div class="container">
+        <br>
+        <div id="järjend"></div>
+        <br>
+        <div class="sona">
+            <label for="sona">Sisestage sõna, mida soovite järjendist eemaldada: </label>
+            <input id="sona">
+        </div>
+        <br>
+        <button onclick="sona_eemaldaja()">Eemalda sõna</button>
+        <div id="tulemus"></div>
+    </div>
+    <script src="järjend_muutmine.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.container {
+    font-family:sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+#järjend {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(1, 125, 197);
+    border-radius: 10px;
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+#tulemus {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    border: 2px solid rgb(191, 54, 255);
+    border-radius: 10px;
+    background-color: rgb(210, 114, 255);
+}
+
+#sona {
+    padding: 5px;
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
