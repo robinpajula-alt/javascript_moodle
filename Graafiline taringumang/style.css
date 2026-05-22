@@ -1,0 +1,14 @@
+.container {
+    font-family:sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+#taring {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
