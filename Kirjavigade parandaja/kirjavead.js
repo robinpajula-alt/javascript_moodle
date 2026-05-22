@@ -3,14 +3,6 @@ const õiged = ['alkohol', 'krematoorium', 'kandidaat']
 let tekst = 'Oleks hea, kui alkohool ei satuks teismeliste kätte. Võrru rajatakse grematoorium riigi kulul. Jaan oli parim kanditaat peaministriks.'
 document.getElementById("vigane").innerHTML = tekst
 const parandaKirjaviga = () => {
-    tekst = tekst.split(" ")
-    for (let i = 0; i < 3; i++) {
-        for (let j = 0; j < tekst.length; j++) {
-            if (tekst[j] === vigased[i]) {
-                tekst[j] = õiged[i]
-            }
-        }
-    }
-    tekst = tekst.join(" ")
+    vigased.map((vigane, i) => tekst = tekst.replace(vigane, õiged[i]))
     document.getElementById("korrektne").innerHTML = tekst
 }
