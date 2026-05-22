@@ -1,0 +1,25 @@
+.container {
+    font-family:sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+#kast1, #kast2, #kast3, #kast4 {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    gap: 20px;
+}
+
+.kastid1, .kastid2 {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.kastid2 {
+     margin-top: 50px;
+}
