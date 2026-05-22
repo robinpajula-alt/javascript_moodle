@@ -1,0 +1,25 @@
+.container {
+    font-family:sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+#tulemus_õun {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    border: 2px solid rgb(191, 54, 255);
+    border-radius: 10px;
+    background-color: rgb(210, 114, 255);
+}
+
+#tulemus_lumi {
+    padding: 10px;
+    margin-top: 50px;
+    border: 2px solid rgb(48, 198, 209);
+    border-radius: 10px;
+    background-color: rgb(139, 255, 255);
+}
