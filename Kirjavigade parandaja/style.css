@@ -1,0 +1,16 @@
+.container {
+    font-family:sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+#vigane {
+    margin-bottom: 20px;
+}
+
+#korrektne {
+    margin-top: 20px;
+}
